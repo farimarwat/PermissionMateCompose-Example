@@ -27,3 +27,12 @@ val pms = rememberPermissionMateState(permissions = permission)
             Text(text = "Permission")
         }
 ```
+
+### PMate() object takes three params:
+1. Android Manifest Permession
+2. Required (e.g. if it is true then it will not go further)
+3. Rational Message
+
+### Note:
+Sample project is included.
+Any bugs or suggestions are most welcome
